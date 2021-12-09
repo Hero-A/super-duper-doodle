@@ -1,0 +1,18 @@
+h3{
+    font: 39px !important;
+}
+
+.btn-warnig:hover{
+    background-color:goldenrod ;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 3px 38px  #ffa600;} 
+    to {box-shadow: 1px 3px 38px #0059ff;}
+}
