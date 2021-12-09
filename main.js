@@ -8,6 +8,13 @@ function setup(){
     video = createCapture(VIDEO);
     video.size(300, 230);
     video.hide();
+
+    poseNet = ml5.poseNet(video, modelLoaded);
+    poseNet.on('pose', gotPoses);
+}
+
+function modelLoaded(){
+    console.log('PoseNet is initialized');
 }
 
 function draw(){

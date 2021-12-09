@@ -13,6 +13,6 @@ canvas{
 }
 
 @keyframes example {
-    from {box-shadow: 1px 3px 38px  #ffa600;} 
-    to {box-shadow: 1px 3px 38px #0059ff;}
+    from {box-shadow: 17px 20px 100px  #ffa600;} 
+    to {box-shadow: 17px 20px 100px #0059ff;}
 }
